@@ -13,5 +13,6 @@ public class inputprogram {
 		String lastname = input.next();
 
 		System.out.println("Your full name is " + firstname + " " + lastname);
+		input.close();
 	}
 }

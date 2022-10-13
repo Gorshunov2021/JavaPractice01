@@ -8,5 +8,6 @@ public class HelloName {
 		Scanner scan = new Scanner(System.in);
 		String name = scan.next();
 		System.out.println("HELLO, " + name + " !");
+		scan.close();
 	}
 }
