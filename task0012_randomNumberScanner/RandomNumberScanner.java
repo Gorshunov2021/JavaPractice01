@@ -1,3 +1,5 @@
+// Вывести случайные числа в диапазоне и их количество.
+
 package task0012_randomNumberScanner;
 
 import java.util.Scanner;
