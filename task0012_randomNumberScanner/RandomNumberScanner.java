@@ -21,5 +21,6 @@ public class RandomNumberScanner {
 				  int x = a + (int)(Math.random() * ((b - a) + 1));
 				  System.out.print(x + ", ");
 			 }
+			 scan.close();
   }
 }

@@ -19,5 +19,6 @@ public class PasswordAndEquals {
 			System.out.println("Sample string: gorynych");
 			System.out.println("Your passwords do not match. " + passw2 + " not equal " + passw1 + " !");
 		}
+		scan.close();
 	}
 }
