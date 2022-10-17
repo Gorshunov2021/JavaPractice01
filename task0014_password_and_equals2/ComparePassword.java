@@ -11,7 +11,7 @@ public class ComparePassword {
 		yourPassword = scan.nextLine();
 		System.out.println("Your Password: " + yourPassword);
 		return yourPassword;
-	} 
+	}
 
 static void ComparePassword() {
 	if (password.equals(yourPassword)) {
@@ -22,5 +22,5 @@ static void ComparePassword() {
 public static void main(String[] args) {
 	ImputYourPassword();
 	ComparePassword();
-} 
+}
 }
