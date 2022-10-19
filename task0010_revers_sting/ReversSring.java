@@ -8,7 +8,7 @@ public class ReversSring {
 	public static void main(String[] args) {
 		Scanner vvot = new Scanner(System.in);
 
-		for (int i=0; true; i++) {
+		for (; true;) {
 			StringBuffer toll = new StringBuffer(vvot.nextLine());
 			toll.reverse();
 			System.out.println("Hello " + toll.toString());
