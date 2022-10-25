@@ -17,7 +17,7 @@ public class Numbers {
 		}
 		System.out.println("Вы ввели следующие числа: ");
 		for (int i=0; i<arr.length; i++) {
-			System.out.print (arr[i]+" / ");
+			System.out.print (arr[i] + " / ");
 		}
 		System.out.println();
 		System.out.println("Числа из массива, которые деляться на 3: ");
@@ -47,7 +47,7 @@ public class Numbers {
 				System.out.print(arr[i] + " / ");	
 			}		
 		}
-		
+
 		System.out.println();
 		System.out.println();
 		System.out.println("Числа из массива, которые деляться на 7: ");
