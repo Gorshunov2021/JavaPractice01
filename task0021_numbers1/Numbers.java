@@ -23,15 +23,39 @@ public class Numbers {
 		System.out.println("Числа из массива, которые деляться на 3: ");
 		for (int i=0; i<arr.length; i++) {
 			{double a = arr[i]%3;
-				if (a==0)
-				System.out.print(arr[i]+" ");				
+				if (a==0) {
+					System.out.print(arr[i] + " / ");	
+				}							
 			}
 		}
 		System.out.println();
-		for(int i=0; i<arr.length; i++)
-		{double a=arr[i]%9;
-			if(a==0)
-			System.out.print(arr[i]+" ");
+		System.out.println();
+		System.out.println("Числа из массива, которые деляться на 9: ");
+		for(int i=0; i<arr.length; i++) {
+			double a=arr[i]%9;
+			if(a==0) {
+				System.out.print(arr[i] + " / ");	
+			}		
+		}
+
+		System.out.println();
+		System.out.println();
+		System.out.println("Числа из массива, которые деляться на 5: ");
+		for(int i=0; i<arr.length; i++) {
+			double a=arr[i]%5;
+			if(a==0) {
+				System.out.print(arr[i] + " / ");	
+			}		
+		}
+		
+		System.out.println();
+		System.out.println();
+		System.out.println("Числа из массива, которые деляться на 7: ");
+		for(int i=0; i<arr.length; i++) {
+			double a=arr[i]%7;
+			if(a==0) {
+				System.out.print(arr[i] + " / ");	
+			}		
 		}
 	}
 }
