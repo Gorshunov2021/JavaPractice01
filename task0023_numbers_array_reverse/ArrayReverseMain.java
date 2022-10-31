@@ -18,6 +18,5 @@ public class ArrayReverseMain {
 		System.out.println(Arrays.toString(arr));
 		ArrayReverse.invert(arr);
 		System.out.println(Arrays.toString(arr));
-
 	}
 }
